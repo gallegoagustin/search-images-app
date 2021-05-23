@@ -1,0 +1,57 @@
+.favHeaderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.favsContainer {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.favCardColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    padding-bottom: 0.5rem;
+    margin: 1rem 1rem;
+}
+
+.favCardRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+}
+
+.favsHeader {
+    font-size: 2rem;
+}
+
+.emptyFavs {
+    margin-top: 2rem;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1rem 1rem;
+}
+
+#favSeparator {
+    width: 20rem;
+    height: 1px;
+    border-style: none;
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .favsHeader {
+        display: none;
+    }
+}

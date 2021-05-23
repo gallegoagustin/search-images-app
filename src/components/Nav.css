@@ -1,0 +1,44 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.mainIcon {
+    width: 6rem;
+}
+
+.listContainer {
+    list-style: none;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.listItem {
+    font-size: 1.3rem;
+}
+
+.listItem:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .navContainer {
+        flex-direction: column;
+        padding: 0 0;
+    }
+
+    .listContainer {
+        flex-direction: column;
+        width: 20%;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
+
+    .listItem {
+        margin: 0.5rem 0;
+    }
+}

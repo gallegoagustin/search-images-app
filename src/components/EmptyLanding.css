@@ -1,0 +1,14 @@
+.alertContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.textBox {
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1rem 0;
+}

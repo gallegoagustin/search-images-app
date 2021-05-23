@@ -1,0 +1,42 @@
+.footerColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerContainer {
+    width: 27%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footerSeparator {
+    width: 50rem;
+    height: 1px;
+    border-style: none;
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    #footerSeparator {
+        margin-top: 4rem;
+        width: 75%;
+    }
+
+    .footerContainer {
+        width: 27%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #footerSlash {
+        display: none;
+    }
+
+    #responsiveLinkedIn {
+        margin-bottom: 1rem;
+    }
+}
