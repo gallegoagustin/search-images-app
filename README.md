@@ -6,5 +6,5 @@ You will be able to look for images using Pixabay's API and add them to your fav
 
 You can also try the mobile version!
 
-https://search-images-app.vercel.app/about
+https://search-images-app.vercel.app/
 
